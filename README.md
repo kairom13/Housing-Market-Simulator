@@ -8,6 +8,7 @@ Objects:
     - Can be null
 - House
   - Value: How much money the house is worth
+    - When a house is bought, the value of the house is set at what ever the buyer's budget was
   - Occupant: Link to the person that lives here
 - Market
   - Buyers: The people who are trying to buy a house
