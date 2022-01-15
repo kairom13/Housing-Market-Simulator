@@ -28,6 +28,9 @@ A simple simulation of how the housing market can work
 - Choose some people who want to buy
 - Iterate through sellers, from most valuable to least
   - For each seller, sell to buyer with the highest budget
+  - Need some mechanism to allow cheap houses to not be 100% bought by richer people
+    - Could limit buyers to a range around their budget
+    - Could have leftover houses depreciate in value
   - Once transaction is completed, remove buyer from market, add seller to buyer’s market
     - Randomly choose budget b/w 90% and 125% of original house value
 
