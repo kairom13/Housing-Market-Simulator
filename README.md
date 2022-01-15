@@ -1,7 +1,7 @@
 # Housing-Market-Simulator
 A simple simulation of how the housing market can work
 
-Objects:
+### Objects:
 - Occupant
   - Budget: How much money they’re willing to pay for a new house
   - House: Link to the house they live in
@@ -17,7 +17,7 @@ Objects:
   - Sellers: The people who are trying to sell a house
     - Can only be houses
 
-Process
+### Process
 1. Generate a random set of people and houses
 - Choose distribution of budgets and house values
 - Designate some people as homeless
@@ -30,7 +30,8 @@ Process
   - For each seller, sell to buyer with the highest budget
   - Once transaction is completed, remove buyer from market, add seller to buyer’s market
     - Randomly choose budget b/w 90% and 125% of original house value
-Settings
+
+### Settings
 - Rate of new construction
   - How often a brand-new house is created
   - Add to seller’s market
